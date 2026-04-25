@@ -1,3 +1,4 @@
+name: zmk-keyboard-wavepad
 build:
   settings:
     board_root: .
