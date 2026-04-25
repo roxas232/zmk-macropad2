@@ -1,0 +1,16 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+&kp ENTER   &kp KP_7   &kp KP_8   &kp KP_9
+&kp KP_4    &kp KP_5   &kp KP_6   &kp MINUS
+&kp KP_1    &kp KP_2   &kp KP_3   &kp PLUS
+&kp KP_0    &kp DOT    &kp EQUAL  &kp BSPC
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+    };
+};
