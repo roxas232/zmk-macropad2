@@ -1,0 +1,61 @@
+{
+  "manufacturer": "Custom",
+  "keyboard_name": "wavepad",
+  "maintainer": "you",
+  "bootloader": "rp2040",
+  "processor": "RP2040",
+  "url": "",
+  "usb": {
+    "vid": "0xFEED",
+    "pid": "0x0001",
+    "device_version": "1.0.0"
+  },
+  "features": {
+    "bootmagic": true,
+    "command": false,
+    "console": false,
+    "extrakey": true,
+    "mousekey": false,
+    "nkro": true,
+    "encoder": true
+  },
+  "matrix_pins": {
+    "rows": ["GP0", "GP1", "GP2", "GP3"],
+    "cols": ["GP4", "GP5", "GP6", "GP7"]
+  },
+  "diode_direction": "COL2ROW",
+  "layouts": {
+    "LAYOUT_ortho_4x4": {
+      "layout": [
+        { "matrix": [0, 0], "x": 0, "y": 0 },
+        { "matrix": [0, 1], "x": 1, "y": 0 },
+        { "matrix": [0, 2], "x": 2, "y": 0 },
+        { "matrix": [0, 3], "x": 3, "y": 0 },
+
+        { "matrix": [1, 0], "x": 0, "y": 1 },
+        { "matrix": [1, 1], "x": 1, "y": 1 },
+        { "matrix": [1, 2], "x": 2, "y": 1 },
+        { "matrix": [1, 3], "x": 3, "y": 1 },
+
+        { "matrix": [2, 0], "x": 0, "y": 2 },
+        { "matrix": [2, 1], "x": 1, "y": 2 },
+        { "matrix": [2, 2], "x": 2, "y": 2 },
+        { "matrix": [2, 3], "x": 3, "y": 2 },
+
+        { "matrix": [3, 0], "x": 0, "y": 3 },
+        { "matrix": [3, 1], "x": 1, "y": 3 },
+        { "matrix": [3, 2], "x": 2, "y": 3 },
+        { "matrix": [3, 3], "x": 3, "y": 3 }
+      ]
+    }
+  },
+  "encoder": {
+    "rotary": [
+      {
+        "pin_a": "GP8",
+        "pin_b": "GP9",
+        "resolution": 4
+      }
+    ]
+  }
+}
