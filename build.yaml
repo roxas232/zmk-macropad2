@@ -1,3 +1,4 @@
 include:
   - board: rpi_pico
     shield: wavepad
+    snippet: zmk-usb-logging
