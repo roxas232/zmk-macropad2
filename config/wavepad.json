@@ -28,7 +28,7 @@
   "layouts": {
     "LAYOUT_ortho_4x4": {
       "layout": [
-        { "label":"Enc", "row":0, "col":0, "x":4, "y":0, "encoder":[0,0] },
+        { "label":"Enc", "row":4, "col":0, "x":4, "y":0, "encoder":[0,0] },
 
         { "matrix":[0,0], "row":0, "col":0, "x":0, "y":0 },
         { "matrix":[0,1], "row":0, "col":1, "x":1, "y":0 },
